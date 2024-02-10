@@ -134,7 +134,7 @@ Distributed under the MIT License. See [LICENSE](https://github.com/calvin-kiman
 
 ## Authors
 
-* **Calvin Kimani ** - *Computer Technology Student* - [Calvin Kimani (wolf)](https://github.com/calvin-kimani/) - *Creator of Ice*
+* **Calvin Kimani** - *Computer Technology Student* - [Calvin Kimani (wolf)](https://github.com/calvin-kimani/) - *Creator of Ice*
 
 ## Acknowledgements
 
