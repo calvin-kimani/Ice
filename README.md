@@ -8,11 +8,13 @@ Ice is a web application designed for cybersecurity documentation. It leverages 
 ![screenshot 2](./screenshots/ice2.png)
 
 ## To Do
-1. Documentation Management: Easily create, edit, and organize documentation related to cybersecurity topics. Whether it’s threat analysis, best practices, or incident response procedures, Ice has you covered.
+1. Improve UI
 
-2. Tagging and Categorization: Tag your documentation with relevant keywords and organize them into categories. This makes it simple to find specific content when needed.
+2. Documentation Management: Easily create, edit, and organize documentation related to cybersecurity topics. Whether it’s threat analysis, best practices, or incident response procedures, Ice has you covered.
 
-3. Responsive Design: Optimize for various devices, ensuring a seamless experience for users on desktops, tablets, and mobile phones.
+3. Tagging and Categorization: Tag your documentation with relevant keywords and organize them into categories. This makes it simple to find specific content when needed.
+
+4. Responsive Design: Optimize for various devices, ensuring a seamless experience for users on desktops, tablets, and mobile phones.
 
 ## Installation
 
