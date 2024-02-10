@@ -1,6 +1,12 @@
 ## Ice
 Ice is a web application designed for cybersecurity documentation. It leverages the power of Laravel and Tailwind CSS to create an intuitive and visually appealing platform for managing security-related content.
 
+## Screenshots
+
+![screenshot 1](./screenshots/ice1.png)
+
+![screenshot 2](./screenshots/ice2.png)
+
 ## To Do
 1. Documentation Management: Easily create, edit, and organize documentation related to cybersecurity topics. Whether it’s threat analysis, best practices, or incident response procedures, Ice has you covered.
 
