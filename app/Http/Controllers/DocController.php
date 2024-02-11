@@ -61,6 +61,7 @@ class DocController extends Controller
      */
     public function destroy(Doc $doc)
     {
-        //
+        Doc::find($doc)->first()->delete();
+        return redirect(route('docs.index'));
     }
 }

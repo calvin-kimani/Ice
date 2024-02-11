@@ -6,7 +6,7 @@
 		<h1 class="text-main font-bold text-xl mb-4 flex items-center justify-between">
 			{{ $doc->title }}
 
-			<form action="{{ route('docs.delete', $doc->id) }}">
+			<form action="{{ route('docs.delete', $doc->id) }}" method="POST">
 			@method('delete') @csrf
 				<x-button-delete />				
 			</form>

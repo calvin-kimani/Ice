@@ -15,7 +15,7 @@ use App\Http\Controllers\DocController;
 */
 
 Route::get('/', function () { return view('welcome'); }); // home
-Route::get('/docs', [DocController::class], 'index')->name('docs.index'); // index
+Route::get('/docs', [DocController::class, 'index'])->name('docs.index'); // index
 Route::get('/docs/new', function(){ return view('docs.create'); })->name('docs.create'); // create
 Route::post('/docs/new', [DocController::class, 'store'])->name('docs.store'); // store
 Route::get('/docs/{doc}', [DocController::class, 'show'])->name('docs.show'); // read
