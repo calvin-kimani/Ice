@@ -12,7 +12,7 @@ class NewDocForm extends Component
     public function save()
     {
         $newDoc = $this->form->store(); 
-        return $this->redirect(route('docs.show', $newDoc));
+        return $this->redirect(route('docs.show', $newDoc), navigate: true);
     }
 
     public function render()
