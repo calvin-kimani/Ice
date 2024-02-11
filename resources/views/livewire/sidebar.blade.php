@@ -5,13 +5,14 @@
 		<input type="text" placeholder="Search" class="w-full h-full bg-accent outline-none mx-2">
 	</form>
 
-	<ul class="mt-8 font-bold">
+	<ul class="mt-8 font-bold space-y-1">
 		@foreach($docs as $doc)
-		<li class="h-8 w-full">
-			<a href="{{ route('docs.show', $doc->id) }}" wire:navigate class="block w-full h-full p-2 bg-accent border-l border-main border-l-4 text-main flex items-center text-ellipsis truncate overfl-x-auto">
+		<li class="h-10 w-full">
+			<a href="{{ route('docs.show', $doc->id) }}" wire:navigate class="block w-full h-full p-2 @if(Request::is('docs/' . $doc->id)) bg-accent border-l border-main border-l-2 @endif hover:bg-accent text-main flex items-center text-ellipsis truncate overfl-x-auto">
 				{{ $doc->title }}
 			</a>
 		</li>
 		@endforeach
+
 	</ul>
 </div>
