@@ -13,7 +13,8 @@ class DocController extends Controller
      */
     public function index()
     {
-        //
+        $docs = Doc::select('id', 'title')->get();
+        return view('docs.index')->with(compact('docs'));
     }
 
     /**
