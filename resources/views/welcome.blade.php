@@ -15,7 +15,7 @@
 
 <script>
     // Fetching cybersecurity news using NewsAPI
-    fetch('https://newsapi.org/v2/everything?q=cybersecurity&apiKey=')
+    fetch('https://newsapi.org/v2/everything?q=cybersecurity&apiKey=cae43a1fffc3425da4f2e02425c8213e')
     .then(response => response.json())
     .then(data => {
         const newsDiv = document.getElementById('cybersecurity-news');
